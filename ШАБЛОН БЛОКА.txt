@@ -1,0 +1,18 @@
+ 
+ В теле
+
+
+ return BlocProvider<FirstBloc>(
+        create: (context) => FirstBloc(),
+        child: BlocBuilder<FirstBloc, int>(
+            builder: (context, buttonpressed) => _textw(buttonpressed)
+                                            )
+                                );
+
+
+
+            
+
+
+контроллер
+
